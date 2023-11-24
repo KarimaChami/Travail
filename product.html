@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .cats-card{
+            width: 270px;
+            height: 170px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md  d-flex justify-content-between">
+            <ul class="nav nav">
+                <li class="nav-item"><a  class="nav-link mx-2 fs-3 text-dark fw-bold"  href="">CatStore</a></li>
+                <li class="nav-item"><a  class="nav-link mx-2 text-secondary mt-2 fs-5 "  href="Home.html">Home</a></li>
+                <li class="nav-item"><a  class="nav-link mx-2 text-secondary mt-2 fs-5 "  href="product.html">Product</a></li>
+                <li class="nav-item"><a  class="nav-link mx-2 text-secondary mt-2 fs-5 "  href="Cart.html">Cart</a></li>
+            </ul>
+            <i class="fa-solid fa-cart-shopping fa-xl" style="color: #0f67ff;">
+            </i>
+            <span class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-danger">
+                2
+                <span class="visually-hidden">unread messages</span>
+              </span>
+        </nav>
+    </div>
+    <div class="tab-content">
+        <div class="container container-fluid" id="Products">
+            <h1 class="fw-bolder" >Products</h1>
+            <div class="cards d-flex justify-content-around p-2 m-3">
+                
+                    <div class="card p-2" style="width: 18rem;">
+                        <img src="images\images (1).jpg" class="cats-card card-img-top rounded-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat 1</h5>
+                            <p class="card-text">$10.45</p>
+                            <button class="btn btn-outline-primary rounded-pill"><a href="Details.html">details</a></button>
+                        </div>
+                      </div>
+                      <div class="card p-2" style="width: 18rem;">
+                        <img src="images\images.jpg" class="cats-card card-img-top rounded-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat 2</h5>
+                            <p class="card-text">$10.45</p>
+                            <button class="btn btn-outline-primary rounded-pill">  <a href="Details.html">details</a></button>
+                        </div>
+                      </div>
+                      <div class="card p-2" style="width: 18rem;">
+                        <img src="images\téléchargement.jpg" class="cats-card card-img-top rounded-1">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat 3</h5>
+                            <p class="card-text">$10.45</p>
+                            <button class="btn btn-outline-primary rounded-pill"><a href="Details.html">details</a></button>
+                        </div>
+                      </div>
+               
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
